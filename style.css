@@ -187,9 +187,10 @@ input:focus {
   color: #a0aec0;
   font-size: 14px;
   font-weight: 700;
-  padding-bottom: 32px;
+  padding-top: 32px;
 }
 .customer__img--wrapper {
+padding-top: 12px;
   display: flex;
   width: 80%;
 }
@@ -276,6 +277,7 @@ input:focus {
 #quality{
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 .quality__content {
   display: flex;
@@ -286,11 +288,12 @@ input:focus {
 }
 .quality__wrapper{
     display: flex;
-    padding-bottom: 96px;
+    align-items: center;
 }
 .quality__img--wrapper{
     width: 50%;
     display: flex;
+    align-items: center;
     
 
 }
@@ -323,6 +326,8 @@ input:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100vh;
+
 }
 .steps__content{
     width:50%;
@@ -360,14 +365,20 @@ input:focus {
 
 /* VALUES */
 
+#values{
+    height: 100vh;
+}
+
 .values__wrapper{
     display: flex;
+    height: 100vh;
     align-items: center;
+    
 }
 
 .values__content{
-    width: 50%;
-}
+    width: 50%;}
+
 .values__img--wrapper{
     width: 50%;
     overflow: hidden;
@@ -391,6 +402,33 @@ input:focus {
     font-size: 18px;
     color: #718096;
     line-height:1.75;
+}
+
+.values1__icon--wrapper{
+  width: 35px;
+  height: 35px;
+    background-color: #9ae6b4;
+    border: 2px solid #9ae6b4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.values2__icon--wrapper{
+    width: 35px;
+    height: 35px;
+      background-color: #feb2b2;
+      border: 2px solid #feb2b2;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    background-color: #feb2b2;
+}
+
+.values__box--title{
+    margin-left: 12px;
 }
 
 
