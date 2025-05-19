@@ -626,3 +626,46 @@ input:focus {
 }
 .fa-star{
     color: #fabf2a;}
+
+    /* GET STARTED */
+
+    .get-started__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #6415ff;
+        padding: 96px 150px;
+        margin: 96px 0;
+    }
+
+    .get-started__btn,.contact-us__btn{
+   
+        color: white;
+        padding: 16px 32px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 40px;
+    }
+
+    .get-started__btn{
+        background-color: #f56565;
+        border: 2px solid #f56565;
+    }
+
+    .get-started__btns{
+        display: flex;
+        gap: 32px;
+    }
+
+    .contact-us__btn{
+        background-color: #6415ff;
+        border: 0.5px solid #f7fafc;
+    }
+
+    .get-started__text{
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        width: 50%;
+
+    }
